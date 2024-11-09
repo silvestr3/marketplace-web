@@ -23,7 +23,7 @@ export default {
 				base: '#5EC5FD',
 				dark: '#009CF0'
 			},
-			shape: {
+			base: {
 				white: '#FFFFFF',
 				background: '#FBF4F4',
 				shape: '#F5EAEA'
