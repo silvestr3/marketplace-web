@@ -66,7 +66,7 @@ export function LoginPage() {
         </div>
       </div>
 
-      <Button className="flex items-center justify-between">
+      <Button size="default" className="flex items-center justify-between">
         Acessar
         <ArrowRight02Icon />
       </Button>

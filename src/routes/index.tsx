@@ -1,5 +1,6 @@
 import { AuthLayout } from "@/pages/_layouts/auth-layout";
 import { LoginPage } from "@/pages/auth/login/login-page";
+import { RegisterPage } from "@/pages/auth/register/register-page";
 import { createBrowserRouter } from "react-router-dom";
 
 export const router = createBrowserRouter([
@@ -13,7 +14,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "register",
-        element: <h1>Register page</h1>,
+        element: <RegisterPage />,
       },
     ],
   },

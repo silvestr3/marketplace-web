@@ -12,7 +12,7 @@ export function AuthLayout() {
           alt="Image of a box with description of some of marketplace's functionality"
         />
       </div>
-      <div className="w-[563px] h-full bg-base-white rounded-3xl py-16 px-20 flex flex-col gap-12">
+      <div className="w-[563px] h-full bg-base-white rounded-3xl py-16 px-20 flex flex-col gap-12 overflow-y-auto">
         <Outlet />
       </div>
     </main>
